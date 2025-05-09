@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    font-family: 'Roboto', system-ui, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+img[src="./images/greens.jpg"] {
+    height: 100vh;
+    width: 35vw;
+}
+
+.right-side {
+    width: 100vw;
+    background-color: #FAF9F6;
+}
+
+.message-header {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 5vw 1vh;
+    font-size: clamp(1.5rem, 2rem, 2rem);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    margin: auto;
+}
+  
+.form-row {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+  
+.form-group {
+    flex: 1;
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+
+input {
+    width: 30%;
+    padding: 5px;
+    font-size: 2em;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+button {
+    padding: 30px;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #596D48;
+}
